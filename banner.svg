@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Software Developer — MCA General</title>
+  <desc id="desc">Minimal dark navy banner with a subtle grid, blue accents, and software developer title.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#17243a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <circle cx="1030" cy="55" r="150" fill="#2563eb" opacity=".10"/>
+  <circle cx="1110" cy="270" r="180" fill="#22d3ee" opacity=".07"/>
+  <rect x="72" y="65" width="6" height="170" rx="3" fill="url(#accent)"/>
+  <text x="105" y="112" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="4">MCA GENERAL • SOFTWARE DEVELOPMENT</text>
+  <text x="102" y="172" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Building skills,</text>
+  <text x="102" y="226" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">one project at a time.</text>
+  <g transform="translate(930 100)" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 0L-35 35L0 70"/>
+    <path d="M72 0L107 35L72 70"/>
+    <path d="M55 -8L17 78"/>
+  </g>
+  <text x="105" y="270" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="16">PYTHON  /  C++  /  WEB  /  SQL</text>
+</svg>
